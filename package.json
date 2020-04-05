@@ -1,6 +1,6 @@
 {
   "name": "owneymail",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "NPM package to use services of owneymail.com",
   "keywords": ["Owneymail","Email Marketing"],
   "main": "index.js",

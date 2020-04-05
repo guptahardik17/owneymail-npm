@@ -2,8 +2,7 @@
 
 powered by owneymail.com
 
-
-Email marketing via Amazon SES, Sendgrid, Mailchimp. editor
+Email marketing via Amazon SES, Sendgrid, Mailchimp.
 
 # Installation
 Install the dependencies and devDependencies and start the server.
@@ -12,7 +11,6 @@ $ npm install owneymail
 ```
 
 # USAGE
-Install the dependencies and devDependencies and start the server.
 ```sh
 const owneymail = require('owneymail');
 const owneyService = new owneymail(OWNEYMAIL_API_KEY)
