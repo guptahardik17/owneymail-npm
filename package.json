@@ -1,0 +1,14 @@
+{
+  "name": "owneymail",
+  "version": "1.0.0",
+  "description": "NPM package to use services of owneymail.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hardik Gupta",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
+}
