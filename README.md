@@ -1,6 +1,7 @@
 # Owneymail
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)]()
+
 powered by owneymail.com
+
 
 Email marketing via Amazon SES, Sendgrid, Mailchimp. editor
 
@@ -14,9 +15,9 @@ $ npm install owneymail
 Install the dependencies and devDependencies and start the server.
 ```sh
 const owneymail = require('owneymail');
-const owneymailService = new owneymail(OWNEYMAIL_API_KEY)
+const owneyService = new owneymail(OWNEYMAIL_API_KEY)
 
-owneymailService.templateCode("ECOMMERCE")
+owneyService.templateCode("TEMPLATE_CODE")
     .fromName("Lorem Ipsum")
     .fromEmail("hi@loremipsum.com")
     .subject("Lorem Ipsum Test Email")
